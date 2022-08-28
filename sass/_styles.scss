@@ -1,0 +1,39 @@
+// general styling
+
+body {
+  background-color: $light-gray;
+  font-family: $ff-body;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 28px;
+  line-height: 1.25;
+  font-size: $fs-base;
+}
+
+.card {
+  max-width: 20rem;
+  background-color: $white;
+  text-align: center;
+  border-radius: 1.25rem;
+  padding: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba($dark-blue, 0.05);
+
+  &-image {
+    border-radius: 0.625rem;
+    overflow: hidden;
+  }
+
+  &-title {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.375rem;
+    color: $dark-blue;
+  }
+
+  &-text {
+    color: $gray-blue;
+    padding-inline: 0.75rem;
+    padding-bottom: 1.5rem;
+  }
+}
